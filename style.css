@@ -136,6 +136,97 @@ section{
             transform: translateY(0px);
         }
     }
+
+    .button .b1{
+
+        background-clip: border-box;
+        -webkit-background-clip: border-box;
+        color: white;
+        border: none;
+        padding: 10px;
+        border-radius: 60px;
+        width: 100px;
+        height: 50px;
+        cursor: pointer;
+        font-size: 16px;
+
+   }
+
+   .logo{
+    margin-top: 28px;
+    font-size: 28px;
+    
+   }
+
+   .logo a{
+    display: inline-flex;
+    justify-content: center;
+    padding: 20px;
+    border: black;
+    background-color: black;
+    width: 48px;
+    height: 48px;
+    align-items: center;
+    border-radius: 50%;
+    text-decoration: none;
+    color: #00d9ff;
+
+   }
+
+   .link{
+    transition: .6s ease;
+   }
+
+   .link:hover{
+    background-color: #007bb6;
+    color: white;
+   }
+
+   .git{
+    transition: .4s ease;
+   }
+
+   .git:hover{
+    color: white;
+   }
+
+   .twit{
+    transition: .6s ease;
+   }
+
+   .twit:hover{
+    background-color: #007bb6;
+    color: white;
+   }
+
+   .tele{
+    transition: .6s ease;
+   }
+
+   .tele:hover{
+    background-color: #007bb6;
+    color: white;
+   }
+
+   .insta{
+    transition: .6s ease;
+   }
+
+   .insta:hover{
+    background-color: #ee00da;
+    color: white;
+   }
+
+   .dev{
+    transition: .4s ease;
+   }
+
+   .dev:hover{
+    color: white;
+   }
+
+
+
 }
 
 .gradient{
@@ -162,6 +253,18 @@ section{
     }
 
 
+}
+
+.freezedgradient{
+    background: linear-gradient(
+        to left,
+        rgb(0, 106,255)
+        
+    );
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: frezedgradientAnimation 3s linear infinite;
 }
     
 .second-page{
