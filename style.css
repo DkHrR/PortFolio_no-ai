@@ -1,12 +1,16 @@
-*{
+* {
     box-sizing: border-box;
-    
+
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
-body{
+body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #f8fcf8 ;
+    background-color: #f8fcf8;
 
 }
 
@@ -14,32 +18,34 @@ body{
     position: fixed;
     display: flex;
     justify-content: space-between;
-    align-items:center;
+    align-items: center;
     text-decoration: none;
     background-color: white;
-    width: 100%; 
+    width: 100%;
     z-index: 10;
-     
+
 }
 
-.nav-logo a{
+.nav-logo a {
     text-decoration: none;
     font-size: 30px;
     margin-left: 200px;
     color: black;
 
 }
-.nav-list{
+
+.nav-list {
     margin-right: 200px;
 }
+
 .nav-list ul {
-    display: flex;    
+    display: flex;
     list-style-type: none;
     padding: 0px;
     overflow: hidden;
 }
 
-.nav-list ul li a{
+.nav-list ul li a {
     text-decoration: none;
     text-align: center;
     margin-left: 24px;
@@ -51,9 +57,9 @@ body{
 
 }
 
-.nav-list ul li a:hover{
-    color:  blue;
-    text-decoration: underline ;
+.nav-list ul li a:hover {
+    color: blue;
+    text-decoration: underline;
 
 }
 
@@ -61,10 +67,10 @@ body{
     margin-top: 0;
     margin-left: 5px;
     margin-bottom: 0;
-    
+
 }
 
-section{
+section {
     height: 100vh;
     width: 200vh;
     overflow: hidden;
@@ -72,39 +78,39 @@ section{
 }
 
 
-.first-page{
-    
-    
-    .home-content{
+.first-page {
+
+
+    .home-content {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         margin-top: 300px;
         min-height: 98vh;
-        color:black;
+        color: black;
         margin-left: 180px;
         box-sizing: border-box;
     }
-    
-    .home-content2{
+
+    .home-content2 {
         display: flex;
         flex-direction: column;
-    
+
     }
-    
+
     .home-content2 h1 {
         font-size: 46px;
         margin-top: 10px;
         margin-bottom: 0;
         color: black;
-    
-    }  
 
-    .home-content2 p{
+    }
+
+    .home-content2 p {
         font-size: 30px;
     }
 
-    .circle{
+    .circle {
 
         width: 400px;
         height: 400px;
@@ -114,31 +120,31 @@ section{
         flex-shrink: 0;
         margin-right: 600px;
         animation: float 4s ease-in-out infinite;
-    }    
-    
-    .circle img{
+    }
+
+    .circle img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        margin-bottom: 500px;   
+        margin-bottom: 500px;
     }
-    
-    @keyframes float{
-        0%{
+
+    @keyframes float {
+        0% {
             transform: translateY(0px);
-    
+
         }
-    
-        50%{
+
+        50% {
             transform: translateY(15px);
         }
-    
-        100%{
+
+        100% {
             transform: translateY(0px);
         }
     }
 
-    .button .b1{
+    .button .b1 {
 
         background-clip: border-box;
         -webkit-background-clip: border-box;
@@ -151,129 +157,122 @@ section{
         cursor: pointer;
         font-size: 16px;
 
-   }
+    }
 
-   .logo{
-    margin-top: 28px;
-    font-size: 28px;
-    
-   }
+    .logo {
+        margin-top: 28px;
+        font-size: 28px;
 
-   .logo a{
-    display: inline-flex;
-    justify-content: center;
-    padding: 20px;
-    border: black;
-    background-color: black;
-    width: 48px;
-    height: 48px;
-    align-items: center;
-    border-radius: 50%;
-    text-decoration: none;
-    color: #00d9ff;
+    }
 
-   }
+    .logo a {
+        display: inline-flex;
+        justify-content: center;
+        padding: 20px;
+        border: black;
+        background-color: black;
+        width: 48px;
+        height: 48px;
+        align-items: center;
+        border-radius: 50%;
+        text-decoration: none;
+        color: #00d9ff;
 
-   .link{
-    transition: .6s ease;
-   }
+    }
 
-   .link:hover{
-    background-color: #007bb6;
-    color: white;
-   }
+    .link {
+        transition: .6s ease;
+    }
 
-   .git{
-    transition: .4s ease;
-   }
+    .link:hover {
+        background-color: #007bb6;
+        color: white;
+    }
 
-   .git:hover{
-    color: white;
-   }
+    .git {
+        transition: .4s ease;
+    }
 
-   .twit{
-    transition: .6s ease;
-   }
+    .git:hover {
+        color: white;
+    }
 
-   .twit:hover{
-    background-color: #007bb6;
-    color: white;
-   }
+    .twit {
+        transition: .6s ease;
+    }
 
-   .tele{
-    transition: .6s ease;
-   }
+    .twit:hover {
+        background-color: #007bb6;
+        color: white;
+    }
 
-   .tele:hover{
-    background-color: #007bb6;
-    color: white;
-   }
+    .tele {
+        transition: .6s ease;
+    }
 
-   .insta{
-    transition: .6s ease;
-   }
+    .tele:hover {
+        background-color: #007bb6;
+        color: white;
+    }
 
-   .insta:hover{
-    background-color: #ee00da;
-    color: white;
-   }
+    .insta {
+        transition: .6s ease;
+    }
 
-   .dev{
-    transition: .4s ease;
-   }
+    .insta:hover {
+        background-color: #ee00da;
+        color: white;
+    }
 
-   .dev:hover{
-    color: white;
-   }
+    .dev {
+        transition: .4s ease;
+    }
+
+    .dev:hover {
+        color: white;
+    }
 
 
 
 }
 
-.gradient{
-    background: linear-gradient(
-        to left,
-        rgb(250, 78, 10),
-        rgb(247, 12, 204),
-        rgb(0, 106,255),
-        rgb(48, 248, 255),
-        rgb(250, 78, 10)
-    );
+.gradient {
+    background: linear-gradient(to left,
+            rgb(250, 78, 10),
+            rgb(247, 12, 204),
+            rgb(0, 106, 255),
+            rgb(48, 248, 255),
+            rgb(250, 78, 10));
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
     animation: gradientAnimation 3s linear infinite;
 }
 
-@keyframes gradientAnimation{
-    0%{
+@keyframes gradientAnimation {
+    0% {
         background-position: 200% 50%;
     }
-    100%{
+
+    100% {
         background-position: 0% 50%;
     }
 
 
 }
 
-.freezedgradient{
-    background: linear-gradient(
-        to left,
-        rgb(0, 106,255)
-        
-    );
+.freezedgradient {
+    background: linear-gradient(to left,
+            rgb(0, 106, 255));
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
     animation: frezedgradientAnimation 3s linear infinite;
 }
 
-.purple{
-    background: linear-gradient(
-        to left,
-        rgb(148, 0, 211)
-        
-    );
+.purple {
+    background: linear-gradient(to left,
+            rgb(148, 0, 211));
     background-clip: text;
     color: transparent;
     background-size: 200% auto;
@@ -282,19 +281,19 @@ section{
 
 
 
-    
-.second-page{
+
+.second-page {
 
     background-color: rgba(255, 255, 255, 0.925);
 
-    .about{
+    .about {
         display: flex;
         justify-content: center;
         font-size: 20px;
         margin-bottom: 48px;
     }
 
-    .aboutcircle{
+    .aboutcircle {
 
         width: 300px;
         height: 400px;
@@ -302,44 +301,44 @@ section{
         background-color: white;
         overflow: hidden;
         flex-shrink: 0;
-        margin-right: 200px; 
-        animation: float 4s ease-in-out infinite;  
+        margin-right: 200px;
+        animation: float 4s ease-in-out infinite;
     }
 
-    .aboutcircle img{
+    .aboutcircle img {
         width: 100%;
         height: 100%;
         object-fit: cover;
-         
+
     }
-      
-    .aboutme{
+
+    .aboutme {
         display: flex;
         justify-content: center;
         margin-right: 50px;
-        
+
     }
 
-    .aboutme-content{
+    .aboutme-content {
         margin-right: 00px;
 
 
     }
 
-    .aboutme-content h2{
+    .aboutme-content h2 {
         margin-bottom: 4px;
-        
+
     }
 
-    .aboutme-content h4{
+    .aboutme-content h4 {
         margin-top: 0px;
     }
 
-    .aboutme-content p{
+    .aboutme-content p {
         font-size: 20px;
     }
 
-    .b2{
+    .b2 {
         padding: 14px;
         width: 140px;
         border: none;
@@ -352,7 +351,7 @@ section{
         font-size: 14px;
     }
 
-    .b2 a{
+    .b2 a {
         padding: 14px;
         width: 140px;
         border: none;
@@ -367,7 +366,7 @@ section{
 
     }
 
-    .b2::after{
+    .b2::after {
         content: "";
         z-index: -1;
         position: absolute;
@@ -380,13 +379,11 @@ section{
 
     }
 
-    .b2::before{
+    .b2::before {
         content: "";
-        background: linear-gradient(
-            45deg,
-            #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff,
-            #ff00c8, #ff0000
-        );
+        background: linear-gradient(45deg,
+                #ff0000, #ff7300, #fffb00, #48ff00, #00ffd5, #002bff,
+                #ff00c8, #ff0000);
 
         position: absolute;
         top: -2px;
@@ -402,7 +399,7 @@ section{
         opacity: 0;
     }
 
-    .b2:hover::before{
+    .b2:hover::before {
         opacity: 1;
     }
 
@@ -414,31 +411,80 @@ section{
         color: #000;
         font-weight: bold;
     }
-    
-    
 
 
 
 
-    
-        
+
+
+
+
 }
 
-@keyframes glowing{
-        0%{
-            background-position: 0 0;
+@keyframes glowing {
+    0% {
+        background-position: 0 0;
 
-        }
+    }
 
-        50%{
-            background-position: 400% 0;
-            
-        }
+    50% {
+        background-position: 400% 0;
 
-        100%{
-            background-position: 0 0;
-            
-        }
+    }
+
+    100% {
+        background-position: 0 0;
+
+    }
+}
+
+.yellow {
+    background: linear-gradient(to left,
+            rgb(255, 215, 0));
+    background-clip: text;
+    color: transparent;
+    background-size: 200% auto;
+    animation: frezedgradientAnimation 3s linear infinite;
+}
+
+.third-page {
+    background-color: #57059e;
+    background-size: 200%;
+
+    .skills-head {
+        display: flex;
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+
     }
 
 
+    .skills {
+
+        display: grid;
+        grid-template-columns: 70px 70px 70px;
+        background-color: dodgerblue;
+        padding: 5px;
+        gap: 5px;
+        justify-content: center;
+
+
+    }
+
+
+    .skills div {
+        background-color: #f1f1f1;
+        color: #000;
+        padding: 10px;
+        font-size: 30px;
+        text-align: center;
+    }
+
+
+    .skills h1 {
+        color: white;
+
+    }
+
+}
