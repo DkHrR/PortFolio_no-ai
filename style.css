@@ -448,7 +448,7 @@ section {
 }
 
 .third-page {
-    background-color: #57059e;
+    background: linear-gradient(to bottom, #57059e, #4a00e0);
     background-size: 200%;
 
     .skills-head {
@@ -462,23 +462,34 @@ section {
 
     .skills {
 
-        display: grid;
-        grid-template-columns: 70px 70px 70px;
-        background-color: dodgerblue;
-        padding: 5px;
-        gap: 5px;
-        justify-content: center;
-
+        display: inline-grid;
+        grid-template-columns: 70px 70px 70px 70px;
+        background-color: #0000004f;
+        align-items: center;
+        width: 1100px;
+        height: 600px;
+        border-radius: 20px;
+        margin-left: 30%;
+        padding: 50px;
+        column-gap: 200px;
+        row-gap: 60px;
+        justify-content: flex-start;
 
     }
 
 
     .skills div {
-        background-color: #f1f1f1;
-        color: #000;
+        height: 140px;
+        width: 180px;
+        border: none;       
+        color: white;
+        background-color: #000;
         padding: 10px;
-        font-size: 30px;
+        font-size: 20px;
         text-align: center;
+        border-radius: 20px;
+
+        
     }
 
 
